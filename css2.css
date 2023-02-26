@@ -1,0 +1,54 @@
+fieldset
+{
+    width: 300px;
+    margin: auto;
+    line-height: 2.0;
+}
+
+label,legend
+{
+    color: darkred;
+}
+
+label:hover
+{
+    color: darkseagreen;
+}
+
+fieldset {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    
+  }
+  
+  @keyframes example {
+      0%{background-color:#dd5e89 ;}
+      25%{background-color: pink;}
+      50%{background-color:#FAAFBA}
+      100%{background-color:#dd5e89;}
+      
+  }
+
+
+
+input:hover
+{
+    background-color: darkseagreen;
+}
+body{
+    background-image: linear-gradient(to right,#dd5e89,#f7bb97);
+}
+
+
+form
+{
+    margin-top: 200px;
+}
+
+
+
